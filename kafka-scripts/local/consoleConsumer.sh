@@ -1,0 +1,1 @@
+kafka-console-consumer --bootstrap-server localhost:9092 --topic counts --from-beginning --group=counts-group --key-deserializer=org.apache.kafka.common.serialization.StringDeserializer --value-deserializer=org.apache.kafka.common.serialization.StringDeserializer
